@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+form {
+    margin: auto;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: salmon;
+    font-family: monospace;
+}
+
+form input {
+    margin-bottom: 20px;
+}
